@@ -2,13 +2,17 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
+import {
+  SectionHeading,
+  Subheading as SubheadingBase,
+} from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
-import SupportIconImage from "images/support-icon.svg";
-import ShieldIconImage from "images/shield-icon.svg";
-import CustomizeIconImage from "images/customize-icon.svg";
+import SendInviteImage from "images/icon1.jpg";
+import ManageGuestImage from "images/icon2.jpg";
+import GreatExperience from "images/icon3.jpg";
+import WeddingAlbum from "images/icon4.jpg";
 import { ReactComponent as SvgDecoratorBlob3 } from "images/svg-decorator-blob-3.svg";
 
 const Heading = tw(SectionHeading)``;
@@ -24,7 +28,7 @@ const Column = styled.div`
 const Card = styled.a`
   ${tw`flex flex-col items-center text-center h-full mx-4 px-4 py-8 rounded transition-transform duration-300 hover:cursor-pointer transform hover:scale-105 `}
   .imageContainer {
-    ${tw`text-center rounded-full p-4 bg-gray-100`}
+    ${tw`text-center rounded-full p-4 `}
     img {
       ${tw`w-8 h-8`}
     }
@@ -53,30 +57,34 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
 export default ({
   cards = [
     {
-      imageSrc: ShieldIconImage,
-      title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security.",
-      url: "https://timerse.com"
+      imageSrc: SendInviteImage,
+      title: "SEND INVITES",
+      description:
+        "Stunning website invitations are easy to make and memorable for guests, created in minutes.",
+      url: "https://timerse.com",
     },
     {
-      imageSrc: SupportIconImage,
-      title: "24/7 Support",
-      description: "Lorem ipsum donor amet siti ceali placeholder text",
-      url: "https://google.com"
+      imageSrc: ManageGuestImage,
+      title: "MANAGE GUESTS",
+      description:
+        "Know how many guests are coming to your celebration and what their preferences are, at a glance.",
+      url: "https://google.com",
     },
+
     {
-      imageSrc: CustomizeIconImage,
-      title: "Customizable",
-      description: "Lorem ipsum donor amet siti ceali placeholder text",
-      url: "https://reddit.com"
-    }
+      imageSrc: WeddingAlbum,
+      title: "WEDDING ALBUM",
+      description:
+        "Easy and secure for you to share all the pics from before, during and after your celebration.",
+      url: "https://reddit.com",
+    },
   ],
-  linkText = "Learn More",
+  linkText = false, //"Learn More",
   heading = "",
   subheading = "",
   description = "",
   imageContainerCss = null,
-  imageCss = null
+  imageCss = { width: "125px !important", height: "125px !important" },
 }) => {
   /*
    * This componets accepts a prop - `cards` which is an array of object denoting the cards. Each object in the cards array can have the following keys (Change it according to your need, you can also add more objects to have more cards in this feature component):
@@ -85,6 +93,14 @@ export default ({
    *  3) description - the description of the card
    *  4) url - the url that the card should goto on click
    */
+
+  // {
+  //   imageSrc: GreatExperience,
+  //   title: "GREAT EXPERIENCE",
+  //   description:
+  //     "Now you can have your favourite song playing on the background to your guest as they enjoy your invite",
+  //   url: "https://reddit.com",
+  // },
   return (
     <Container>
       <ContentWithPaddingXl>
