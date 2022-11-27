@@ -16,12 +16,12 @@ export default () => (
     <Hero />
     <Features />
     <SliderCard />
-    <TrendingCard />
+    {/* <TrendingCard /> */}
     <MainFeature />
-    <Blog />
-    <Testimonial textOnLeft={true}/>
+    {/* <Blog /> */}
+    <Testimonial textOnLeft={true} />
     <FAQ />
-    <SubscribeNewsLetterForm />
+    {/* <SubscribeNewsLetterForm /> */}
     <Footer />
   </AnimationRevealPage>
 );

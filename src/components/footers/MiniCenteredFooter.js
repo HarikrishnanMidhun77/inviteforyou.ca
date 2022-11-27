@@ -37,13 +37,13 @@ export default () => {
             <LogoImg src={logo} />
             <LogoText>InviteForYou</LogoText>
           </LogoContainer>
-          <LinksContainer>
+          {/* <LinksContainer>
             <Link href="#">Home</Link>
             <Link href="#">About</Link>
             <Link href="#">Contact Us</Link>
             <Link href="#">Blog</Link>
             <Link href="#">Reviews</Link>
-          </LinksContainer>
+          </LinksContainer> */}
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
               <FacebookIcon />
@@ -56,7 +56,7 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2020, InviteForYou Inc. All Rights Reserved.
+            &copy; Copyright 2023, InviteForYou Inc. All Rights Reserved.
           </CopyrightText>
         </Row>
       </Content>
