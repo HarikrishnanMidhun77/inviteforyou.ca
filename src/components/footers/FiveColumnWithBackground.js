@@ -142,10 +142,10 @@ export default () => {
         <ThreeColRow>
           <LogoContainer>
             <LogoImg src={LogoImage} />
-            <LogoText>InviteForYou Inc.</LogoText>
+            <LogoText>MadeForInvites Inc.</LogoText>
           </LogoContainer>
           <CopywrightNotice>
-            &copy; 2018 InviteForYou Inc. All Rights Reserved.
+            &copy; 2018 MadeForInvites Inc. All Rights Reserved.
           </CopywrightNotice>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">

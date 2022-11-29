@@ -36,7 +36,7 @@ export default () => {
   window.gtag("js", new Date());
   window.gtag("config", "UA-45799926-9");
 
-  const downloadUrl = "/InviteForYou-ui.zip";
+  const downloadUrl = "/MadeForInvites-ui.zip";
   React.useEffect(() => {
     var iframe = document.createElement("iframe");
     iframe.style.display = "none";
@@ -51,7 +51,7 @@ export default () => {
           <NavRow>
             <LogoLink href="/">
               <img src={logo} alt="" />
-              InviteForYou
+              MadeForInvites
             </LogoLink>
             <div tw="flex flex-col lg:flex-row items-center">
               <NavLink
@@ -81,12 +81,12 @@ export default () => {
               .
             </Description>
             <div tw="mt-12 text-center">
-              I am working on another library similar to InviteForYou, with{" "}
+              I am working on another library similar to MadeForInvites, with{" "}
               <span tw="font-bold">more components</span> and a much{" "}
               <span tw="font-bold">better developer experience</span>.
             </div>
             <div tw="mt-12 text-center">
-              If you liked InviteForYou and would like to get updates on the
+              If you liked MadeForInvites and would like to get updates on the
               library I am working on among other things, do{" "}
               <span tw="font-bold">follow</span> me on Twitter/GitHub.
               <div tw="mt-12 flex flex-col items-center">

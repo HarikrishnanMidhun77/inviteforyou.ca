@@ -75,7 +75,7 @@ const DecoratorBlob2 = tw(
 export default ({
   subheading = "",
   heading = "Testimonials",
-  description = "Here are what some of our amazing customers are saying about the digital invitation experience with InviteForYou.",
+  description = "Here are what some of our amazing customers are saying about the digital invitation experience with MadeForInvites.",
   testimonials = null,
   textOnLeft = false,
 }) => {

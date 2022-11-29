@@ -43,10 +43,10 @@ export default () => {
         <WideColumn>
           <LogoContainer>
             <LogoImg src={LogoImage} />
-            <LogoText>InviteForYou Inc.</LogoText>
+            <LogoText>MadeForInvites Inc.</LogoText>
           </LogoContainer>
           <CompanyDescription>
-            InviteForYou is an Internet Technology company providing design
+            MadeForInvites is an Internet Technology company providing design
             resources such as website templates and themes.
           </CompanyDescription>
           <SocialLinksContainer>

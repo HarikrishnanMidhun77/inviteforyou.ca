@@ -84,7 +84,8 @@ export default ({ headingText = "Privacy Policy" }) => {
               <li>
                 <p>
                   <strong>Company</strong> (referred to as either "the Company",
-                  "We", "Us" or "Our" in this Agreement) refers to InviteForYou.
+                  "We", "Us" or "Our" in this Agreement) refers to
+                  MadeForInvites.
                 </p>
               </li>
               <li>
@@ -99,8 +100,8 @@ export default ({ headingText = "Privacy Policy" }) => {
                 to access our Service or parts of our Service.
               </li>
               <li>
-                <strong>Website</strong> refers to InviteForYou, accessible from
-                https://InviteForYou.com
+                <strong>Website</strong> refers to MadeForInvites, accessible
+                from https://MadeForInvites.com
               </li>{" "}
               <li>
                 <strong>Service</strong> refers to the Website.

@@ -145,7 +145,7 @@ export default () => {
         text={
           <>
             People around you are ordering delicious meals using the{" "}
-            <HighlightedTextInverse>InviteForYou App.</HighlightedTextInverse>
+            <HighlightedTextInverse>MadeForInvites App.</HighlightedTextInverse>
           </>
         }
       />
